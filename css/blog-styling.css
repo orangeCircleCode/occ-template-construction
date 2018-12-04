@@ -1,0 +1,132 @@
+.blog-background {
+	background-size: cover !important;
+	background-image: url(../images/deck-installation-blog-banner.jpg);
+	background-position: center center;
+	margin-top: -20px;
+	height: 400px !important;
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.blog-background h2 {
+	padding-top: 140px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: #ffffff !important;
+	font-size: 90px;
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+.blog {
+	background-color: #FFFFFF;
+	max-width: 970px;
+}
+
+.headings {
+	color: #666464 !important;
+	font-weight: bold !important;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.blog-post a:hover {
+	color: #774220 !important;
+}
+
+.blog-post p {
+	color: #4A4A4A;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 26px;
+	white-space: normal;
+}
+
+.blog-main img {
+	width: 100%;
+	height: 200px;
+}
+
+.sidebar-module h4 {
+	color: #774220;
+	font-weight: bold !important;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog-sidebar li {
+	list-style: none;
+	font-weight: bold !important;
+}
+
+.blog-sidebar a {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #4f4f4f;
+}
+
+.blog-sidebar a:hover {
+	color: #774220 !important;
+}
+
+.list-unstyled img {
+	width: 12%;
+	height: 12%;
+}
+
+.blog {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+
+.read-more {
+	color: #774220 !important;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px) {
+	.blog-background h2 {
+		position: relative;
+		top: 0px;
+		font-size: 35px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+	.blog-background h2 {
+		font-size: 50px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		position: relative;
+		top: -20px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.blog-background h2 {
+		font-size: 55px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		position: relative;
+		top: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}

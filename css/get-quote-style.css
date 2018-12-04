@@ -1,0 +1,282 @@
+.quote-banner {
+	background-image: url(../images/contact-banner.jpg);
+	background-repeat: no-repeat;
+	height: auto;
+	background-size: cover;
+	margin-top: -20px;
+}
+
+.con-btn {
+	margin-top: -30px !important;
+}
+
+.quote-shutters p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #4F4D4F;
+	letter-spacing: 2px;
+	margin-top: 40px;
+}
+
+.quote-banner h3 {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	color: #ffffff;
+}
+
+#result {
+	font-size: 22px !important;
+	font-weight: bold !important;
+	text-align: center !important;
+	text-shadow: none !important;
+	letter-spacing: 0 !important;
+	line-height: 25px !important;
+}
+
+.alert {
+	font-size: 22px !important;
+	font-weight: bold !important;
+	font-family: 'Montserrat', sans-serif !important;
+	text-shadow: none !important;
+	text-align: center !important;
+	letter-spacing: 0 !important;
+	line-height: 25px !important;
+}
+
+.contact-page-head {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 80px !important;
+	position: relative;
+	top: 130px !important;
+}
+
+.row {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+form {
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.message-text {
+	font-family: 'Reem Kufi', sans-serif !important;
+	font-size: 22px !important;
+	color: #545454;
+	font-weight: bold;
+	background-color: #ffffff !important;
+}
+
+.citynames {
+	height: 45px !important;
+}
+
+.contact-banner {
+	background-image: url(../images/contact-banner.jpg);
+	background-repeat: no-repeat;
+	height: auto;
+	background-size: cover;
+	margin-top: -20px;
+}
+
+.contact-banner h3 {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 50px;
+	padding-top: 12%;
+	padding-bottom: 12%;
+	color: #E5D600;
+}
+
+.email-us p {
+	font-family: 'Reem Kufi', sans-serif;
+	color: #505b5b !important;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	font-size: 30px;
+}
+
+.email-us {
+	background-color: #eee8e3;
+	height: auto;
+
+}
+
+footer {
+	background-color: #5e341a;
+	margin-top: 15px;
+}
+
+#message {
+	height: 100px !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 16px !important;
+}
+
+.get-quote-btn {
+	font-size: 25px !important;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ed3641;
+	border-radius: 0;
+	border: none !important;
+	margin-top: -20px;
+}
+
+.get-quote-btn:hover,
+.get-quote-btn:focus,
+.get-quote-btn:active,
+.get-quote-btn.active,
+.open>.dropdown-toggle .get-quote-btn {
+	color: #ffffff;
+	background-color: #DB4437;
+}
+
+.get-quote-btn:active:focus {
+	color: #ffffff;
+	background-color: #DB4437;
+}
+
+.icon-addon.addon-lg .fa, .icon-addon.addon-lg .glyphicon {
+  left: 11px;
+  top: 5px !important;
+}
+
+label {
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+	margin-bottom: -1px !important;
+}
+
+input {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px !important;
+	height: 60 !important;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 600px) {
+	.quote-banner {
+		background-image: url(../images/contact-banner-mobile.jpg);
+		background-repeat: no-repeat;
+		height: 400px;
+		background-size: cover;
+		margin-top: -20px;
+		background-attachment: scroll;
+		background-position: center;
+	}
+	.contact-banner {
+		background-image: url(../images/contact-banner-mobile.jpg);
+		background-repeat: no-repeat;
+		min-height: 400px;
+		background-size: cover;
+		margin-top: -20px;
+	}
+	.contact-banner h3 {
+		font-family: 'Reem Kufi', sans-serif;
+		font-size: 50px;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 70px;
+		position: relative;
+		top: 125px !important;
+		color: #E5D600;
+	}
+	.quote-banner h3 {
+		font-family: 'Reem Kufi', sans-serif;
+		font-size: 35px;
+		letter-spacing: 2px;
+		line-height: 38px;
+		padding-right: 3px;
+		padding-left: 3px;
+	}
+	.email-add {
+		font-size: 20px;
+	}
+
+		form {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+	.quote-banner {
+		background-image: url(../images/contact-banner-tablet.jpg);
+		background-repeat: no-repeat;
+		height: auto !important;
+		background-size: cover;
+		margin-top: -20px;
+		background-attachment: scroll;
+		background-position: center;
+	}
+	.quote-banner h3 {
+		font-family: 'Reem Kufi', sans-serif;
+		font-size: 40px;
+		letter-spacing: 2px;
+		line-height: 38px;
+		padding-right: 3px;
+		padding-left: 3px;
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.contact-banner {
+		background-image: url(../images/contact-banner-tablet.jpg);
+		background-repeat: no-repeat;
+		min-height: 400px;
+		background-size: cover;
+		margin-top: -20px;
+	}
+
+		form {
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+}
+
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) and (orientation: landscape) {
+	.contact-banner {
+		background-image: url(../images/contact-banner.jpg);
+		background-repeat: no-repeat;
+		min-height: 400px;
+		background-size: cover;
+		margin-top: -20px;
+	}
+	.quote-banner {
+		background-image: url(../images/contact-banner.jpg);
+		background-repeat: no-repeat;
+		min-height: 400px;
+		background-size: cover;
+		margin-top: -20px;
+	}
+
+	form {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+}

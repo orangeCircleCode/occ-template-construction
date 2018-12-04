@@ -1,0 +1,415 @@
+#topnavbar {
+  margin: 0;
+}
+
+#city-selection {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+#city-selection p {
+  border: none !important;
+  color: #774220 !important;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.social-links {
+  height: auto;
+  background-color: #f9eee5;
+}
+
+.social-links p {
+  font-family: 'Reem Kufi', sans-serif !important;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  color: #774220;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.tagline {
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #ad8261;
+  margin-top: 2px;
+}
+
+/* Underline From Center */
+
+.center-underline {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+.center-underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #E5D600;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.center-underline:hover:before, .center-underline:focus:before, .center-underline:active:before {
+  left: 0;
+  right: 0;
+}
+
+#banner {
+  height: 180px;
+  background-image: url(../images/banner-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+/* DROPDOWN CITIES SYLING */
+
+.dropdown-button:hover, .dropdown-button:focus, .dropdown-button:active, .dropdown-button.active, .open>.dropdown-button-toggle.dropdown-button {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.dropdown {
+  background: transparent !important;
+}
+
+.dropdown-button:active:focus {
+  background: transparent !important;
+  border: none !important;
+}
+
+.dropdown-button p {
+  font-size: 20px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.dropdown-button {
+  border-color: transparent;
+  background: transparent !important;
+}
+
+.dropdown li {
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  z-index: 2;
+}
+
+.dropdown-menu li {
+  font-size: 16px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #686868 !important;
+}
+
+.dropdown-menu a {
+  font-size: 15px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #727272 !important;
+}
+
+.quote {
+  color: #774220 !important;
+  background-color: #E5D600 !important;
+  font-weight: bold;
+  margin-top: -1px;
+  display: block;
+}
+
+
+.navbar {
+  background-color: #774220;
+  border-bottom: none;
+  width: 100%;
+  height: auto !important;
+  z-index: 1;
+}
+
+
+/* NAVBAR SYLING */
+
+.navbar-toggle {
+  background-color: #774220 !important;
+}
+
+.icon-bar {
+  background-color: #ffffff !important;
+}
+
+#topnavbar {
+  margin: 0;
+}
+
+#topnavbar.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-nav {
+  position: relative;
+  right: -40px !important;
+}
+
+.nav li {
+  padding-right: 60px;
+  padding-left: 12px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #774220;
+  font-weight: bold;
+  border: none;
+}
+
+.navbar-nav a {
+  color: #ffffff !important;
+  letter-spacing: 2px;
+}
+
+.navbar-nav li {
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center !important;
+}
+
+
+/* FOOTER STYLING */
+
+footer a {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -2px;
+  color: #ffffff;
+  border: none;
+  letter-spacing: 1.5px;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #5e341a;
+  height: auto;
+  margin-top: -25px;
+}
+
+#footer a:hover {
+  color: #E5D600 !important;
+}
+
+.footerlinks a:hover {
+  color: #E5D600 !important;
+}
+
+.footerlinks {
+  background-color: #5e341a;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding-bottom: 2px !important;
+}
+
+.footerlinks a {
+  font-size: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#result {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  text-shadow: none !important;
+}
+
+.alert {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-shadow: none !important;
+  text-align: center !important;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px) {
+  .navbar-nav {
+    position: relative;
+    right: 0px !important;
+    top: 0px;
+  }
+  .nav li {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 5px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -8px;
+    background-color: #774220;
+    border: none;
+  }
+  #city-selection {
+    position: absolute;
+    top: 130px;
+    right: 13px;
+  }
+  #city-selection p {
+    font-size: 18px !important;
+  }
+
+  #footer a {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+  footer a {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .footerlinks {
+    
+    padding-top: 20px;
+  }
+
+  .footerlinks a{
+    padding:10px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .navbar-nav {
+    position: relative;
+    right: 0px !important;
+    top: 0px;
+  }
+  .nav li {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 5px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -8px;
+    background-color: #774220;
+    border: none;
+  }
+
+  #city-selection {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    background: transparent !important;
+  }
+
+  .logo {
+    margin-top: 40px;
+  }
+  
+  footer a {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) and (orientation: landscape) {
+  .navbar-nav {
+    position: relative;
+    right: 0px !important;
+    top: -10px;
+    background-color: #ffffff !important;
+    float: none!important;
+  }
+  .nav li {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 4px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2px;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+    background-color: white;
+    margin-right: 50px;
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+    overflow: visible !important;
+  }
+  .navbar-nav li {
+    float: none !important;
+    text-align: center;
+  }
+  .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  footer a {
+    padding-right: 20px;
+    padding-left: 5px;
+  }
+  #footer {
+    height: auto;
+  }
+}

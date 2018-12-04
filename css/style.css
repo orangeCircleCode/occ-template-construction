@@ -1,0 +1,720 @@
+.display-banner {
+  background-image: url(../images/deck-installation-banner.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin-top: -20px;
+}
+
+.display-banner h1 {
+  font-family: 'Reem Kufi', sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 4px;
+  padding-top: 10%;
+  padding-bottom: 20px;
+  line-height: 70px;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.quote-main {
+padding-bottom: 10%;
+
+}
+
+#free-quote {
+  background-color: transparent;
+  color: #E5D600;
+  border-radius: 0px;
+  font-family: 'Reem Kufi', sans-serif; 
+  font-size: 26px;
+  padding: 17px 12px 12px 12px;
+  border: 5px solid #E5D600;
+}
+
+#free-quote:hover, #free-quotet:focus, #free-quote:active, #free-quote.active, .open>.dropdown-toggle #free-quote {
+  color: #864A40;
+  background-color: #E5D600;
+}
+
+#free-quote:active:focus {
+  color: #864A40;
+  background-color: #E5D600;
+}
+
+.get-quote-form {
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+form {
+  background-color: #f9eee5;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 2px 46px 0px rgba(243, 238, 222, 1);
+  -moz-box-shadow: 0px 2px 46px 0px rgba(243, 238, 222, 1);
+  box-shadow: 0px 2px 46px 0px rgba(243, 238, 222, 1);
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+input {
+  font-size: 16px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  margin-bottom: -1px !important;
+  border-radius: 0 !important;
+}
+
+option {
+  font-size: 16px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+}
+
+select {
+  height: 50px !important;
+  border: 1px solid #aaaaaa;
+  font-size: 16px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  border-radius: 0 !important;
+}
+
+.disabled {
+  font-size: 16px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+}
+
+#message {
+  font-size: 16px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+}
+
+option {
+  color: #565656 !important;
+}
+
+label {
+  font-size: 18px !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f3f3f;
+  margin-bottom: -1px !important;
+  margin-left: 5px;
+}
+
+.form-group {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.disclaimer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.center-block {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+  border-radius: 0;
+}
+
+.icon-addon {
+  position: relative;
+  color: #555;
+  display: block;
+}
+
+.icon-addon:after, .icon-addon:before {
+  display: table;
+  content: " ";
+}
+
+.icon-addon:after {
+  clear: both;
+}
+
+.icon-addon.addon-md .glyphicon, .icon-addon .glyphicon, .icon-addon.addon-md .fa, .icon-addon .fa {
+  position: absolute;
+  z-index: 2;
+  left: 10px;
+  font-size: 14px;
+  width: 20px;
+  margin-left: -2.5px;
+  text-align: center;
+  padding: 10px 0;
+  top: 1px;
+}
+
+.icon-addon.addon-lg .form-control {
+  line-height: 1.33;
+  height: 46px;
+  font-size: 18px;
+  padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+  height: 30px;
+  padding: 5px 10px 5px 28px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa, .icon-addon.addon-lg .glyphicon {
+  font-size: 18px;
+  margin-left: 0;
+  left: 11px;
+  top: 5px;
+}
+
+.icon-addon.addon-md .form-control, .icon-addon .form-control {
+  padding-left: 30px;
+  float: left;
+  font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa, .icon-addon.addon-sm .glyphicon {
+  margin-left: 0;
+  font-size: 12px;
+  left: 5px;
+  top: -1px
+}
+
+.icon-addon .form-control:focus+.glyphicon, .icon-addon:hover .glyphicon, .icon-addon .form-control:focus+.fa, .icon-addon:hover .fa {
+  color: #774220;
+}
+
+.glyphicon {
+  color: #774220;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #e5e5e5;
+}
+
+form p {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 22px;
+  color: #774220;
+  line-height: 35px;
+  position: relative;
+  top: 30px;
+}
+
+.intro-text {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.intro-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #4F4D4F;
+  text-align: center;
+  line-height: 32px;
+}
+
+.quote-submit {
+  background-color: #E5D600;
+  color: #864A40;
+  border-color: #E5D600;
+  border-radius: 2px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px !important;
+  font-family: 'Reem Kufi', sans-serif !important;
+  position: relative;
+  top: 8px !important;
+  border: 5px solid #E5D600;
+}
+
+.quote-submit:hover, .quote-submit:focus, .quote-submit:active, .quote-submit.active, .open>.dropdown-toggle .quote-submit {
+  color: #774220;
+  background-color: #ffffff;
+  border: 5px solid #774220;
+}
+
+.quote-submit:active:focus {
+  color: #774220;
+  background-color: #ffffff;
+  border: 5px solid #774220;
+}
+
+.padding-0 {
+  padding: 0 !important;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.durable-decks {
+  font-family: 'Reem Kufi', sans-serif !important;
+  padding: 150px 10px 150px 10px !important;
+  font-size: 55px !important;
+  color: #774220 !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.cities {
+  background-image: url(../images/deck-installation-cities-banner.jpg);
+  min-height: 400px;
+  max-height: 630px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cities a:hover {
+  color: #E5D600 !important;
+}
+
+.cities h3 {
+  font-family: 'Reem Kufi', sans-serif;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+  top: 70px;
+}
+
+.cities a {
+  font-family: 'Reem Kufi', sans-serif;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.choose-cities  {
+  margin-top: 60px;
+}
+
+.description p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: #4F4D4F;
+  line-height: 29px;
+  text-align: center;
+}
+
+.city-description p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: #4F4D4F;
+  line-height: 29px;
+  text-align: center;
+}
+
+.why-deck-installation p {
+  color: #ffffff;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.patterned {
+  background-image: url(../images/patterned-backgroud.jpg);
+  height: 570px;
+}
+
+.side-img1 {
+  background-image: url(../images/deck-side-img1.jpg);
+  height: 570px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.side-img2 {
+  background-image: url(../images/deck-side-img2.jpg);
+  height: 570px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+#get-quote {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E5D600;
+  color: #864A40;
+  border-radius: 0;
+  border: 4px solid #E5D600;
+}
+
+#get-quote:hover, #get-quote:focus, #get-quote:active, #get-quote.active, .open>.dropdown-toggle #get-quote {
+  color: #864A40;
+  background-color: #ffffff;
+  border: 4px solid #864A40;
+  font-size: 32px;
+}
+
+#get-quote:active:focus {
+  color: #864A40;
+  background-color: #ffffff;
+  border: 4px solid #864A40;
+}
+
+.deck-types h1 {
+  color: #ffffff;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  font-size: 45px;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.deck-types a {
+  color: #ffffff;
+}
+
+.deck-types:hover a {
+  text-decoration: none !important;
+}
+
+.composite-type {
+  background-image: url(../images/composite-deck.jpg);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wooden-type {
+  background-image: url(../images/wooden-deck.jpg);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hovereffect:hover a {
+  text-decoration: none;
+}
+
+.terms {
+  margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: #515151;
+}
+
+.about-banner {
+  background-image: url(../images/deck-installation-banner.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin-top: -20px;
+}
+
+.about-banner h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 4px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  line-height: 70px;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: #515151;
+}
+
+.terms a {
+  color: #ed3641;
+  font-weight: bold;
+}
+
+.terms-banner h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+  font-size: 65px;
+  color: #ffffff;
+  position: relative;
+  top: 80px;
+}
+
+.terms-banner {
+  margin-top: -20px;
+  background-image: url(../images/deck-installers-banner.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.decks {
+  background-image: url(../images/patterned-backgroud.png);
+  height: 550px;
+}
+
+.decks img {
+  position: relative;
+  top: 35px;
+}
+
+/*Composite Decking Page Style */
+
+.composite-decking {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.composite-decking p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: #4F4D4F;
+  text-align: center;
+  line-height: 32px;
+}
+
+.composite-decking ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size:19px;
+  color: #4F4D4F;
+}
+
+/*Hardwood Decking Page Style */
+
+.hardwood-decking {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.hardwood-decking p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  color: #4F4D4F;
+  text-align: center;
+  line-height: 32px;
+}
+
+.hardwood-decking ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size:19px;
+  color: #4F4D4F;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 600px) {
+  .display-banner {
+    background-image: url(../images/deck-installation-banner-mobile.jpg);
+  }
+  .display-banner h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  .about-banner h2 {
+    font-size: 35px;
+    position: relative;
+    top: 120px;
+    line-height: 50px;
+    padding-bottom: 120px !important;
+  }
+  #free-quote {
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+    padding: 10px;
+    border: 5px solid #E5D600;
+  }
+
+  .composite-deck-div {
+    margin-top: -30px;
+  }
+  .choose-cities  {
+    padding-bottom: 30px;
+  }
+  input {
+    font-size: 16px !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #3f3f3f;
+    margin-bottom: -1px !important;
+  }
+  .durable-decks {
+    font-size: 45px !important;
+    color: #515151 !important;
+  }
+  .terms-banner h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    position: relative;
+    top: 120px;
+  }
+  .terms {
+    margin-top: 40px;
+  }
+  .about-banner {
+    margin-top: -20px;
+    background-image: url(../images/deck-installation-banner-mobile.jpg);
+    height: 350px;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+  }
+  .side-img1 {
+    height: 450px;
+  }
+  .side-img2 {
+    height: 450px;
+  }
+  .patterned {
+    height: auto !important;
+  }
+  .patterned p {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .deck-types h1 {
+    font-size: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .wooden-type {
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .display-banner {
+    background-image: url(../images/deck-installation-banner-tablet.jpg);
+  }
+  .about-banner {
+    background-image: url(../images/deck-installation-banner-tablet.jpg);
+  }
+  .display-banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  #free-quote {
+    position: relative;
+    top: 0px;
+    font-size: 22px;
+    padding: 14px 12px 12px 12px;
+  }
+  .deck-types h1 {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .choose-cities  {
+    padding-bottom: 30px;
+  }
+  .deck-installation img {
+    height: 550px !important;
+  }
+  label {
+    font-size: 18px !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #3f3f3f;
+    margin-bottom: -1px !important;
+    margin-left: 5px;
+  }
+  .form-group {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    position: relative;
+    left: 0px;
+  }
+  .terms-banner h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: #ffffff;
+    position: relative;
+    top: 120px;
+  }
+  .terms {
+    margin-top: 40px;
+  }
+  .get-quote-form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .choose-cities  {
+    padding-bottom: 30px;
+  }
+  .form-group {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+  .terms-banner h2 {
+    position: relative;
+    top: 100px;
+  }
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) and (orientation: landscape) {
+  .deck-installation img {
+    height: 700px !important;
+  }
+}
