@@ -32,7 +32,7 @@ padding-bottom: 10%;
   background-color: transparent;
   color: #E5D600;
   border-radius: 0px;
-  font-family: 'Reem Kufi', sans-serif; 
+  font-family: 'Reem Kufi', sans-serif;
   font-size: 26px;
   padding: 17px 12px 12px 12px;
   border: 5px solid #E5D600;
@@ -56,7 +56,8 @@ padding-bottom: 10%;
 }
 
 form {
-  background-color: #f9eee5;
+  /* background-color: #f9eee5; */
+  background-color: #2D334D;
   border-radius: 0px;
   -webkit-box-shadow: 0px 2px 46px 0px rgba(243, 238, 222, 1);
   -moz-box-shadow: 0px 2px 46px 0px rgba(243, 238, 222, 1);
@@ -384,6 +385,10 @@ h1 {
   color: #864A40;
   background-color: #ffffff;
   border: 4px solid #864A40;
+}
+
+.deck-types {
+  height: 40vh;
 }
 
 .deck-types h1 {

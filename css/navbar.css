@@ -1,5 +1,6 @@
 #topnavbar {
   margin: 0;
+  /* background-color: #6E7989; */
 }
 
 #city-selection {
@@ -16,7 +17,8 @@
 
 .social-links {
   height: auto;
-  background-color: #f9eee5;
+  /* background-color: #f9eee5; */
+  background-color: #2D334D;
 }
 
 .social-links p {
@@ -28,7 +30,9 @@
 }
 
 .logo {
-  margin-top: 50px;
+  margin-top: 30px;
+  /* width: 30%; */
+  display: none;
 }
 
 .tagline {
@@ -36,6 +40,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #ad8261;
   margin-top: 2px;
+  display: none;
 }
 
 /* Underline From Center */
@@ -76,13 +81,14 @@
 }
 
 #banner {
-  height: 180px;
-  background-image: url(../images/banner-img.jpg);
+  /* height: 180px; */
+  /* background-image: url(../images/banner-img.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #2D334D;
+  /* background-color: #6E7989; */
 
 }
-
 
 /* DROPDOWN CITIES SYLING */
 
@@ -131,22 +137,22 @@
 }
 
 .quote {
-  color: #774220 !important;
-  background-color: #E5D600 !important;
+  /* color: #774220 !important; */
+  border: 2px solid #E5D600;
+  /* background-color: #E5D600 !important; */
   font-weight: bold;
   margin-top: -1px;
   display: block;
 }
 
-
 .navbar {
-  background-color: #774220;
+  /* background-color: #774220; */
+  background-color: #2D334D;
   border-bottom: none;
   width: 100%;
   height: auto !important;
   z-index: 1;
 }
-
 
 /* NAVBAR SYLING */
 
@@ -178,7 +184,7 @@
   padding-left: 12px;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #774220;
+  /* background-color: #774220; */
   font-weight: bold;
   border: none;
 }
@@ -207,7 +213,6 @@
   text-align: center !important;
 }
 
-
 /* FOOTER STYLING */
 
 footer a {
@@ -224,7 +229,8 @@ footer a {
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #5e341a;
+  /* background-color: #5e341a; */
+  background-color: #2D334D;
   height: auto;
   margin-top: -25px;
 }
@@ -238,7 +244,8 @@ footer a {
 }
 
 .footerlinks {
-  background-color: #5e341a;
+  /* background-color: #5e341a; */
+  background-color: #2D334D;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
@@ -275,7 +282,6 @@ footer a {
   text-shadow: none !important;
   text-align: center !important;
 }
-
 
 /* Smartphones (portrait and landscape) ----------- */
 
@@ -314,7 +320,7 @@ footer a {
   }
 
   .footerlinks {
-    
+
     padding-top: 20px;
   }
 
@@ -350,7 +356,7 @@ footer a {
   .logo {
     margin-top: 40px;
   }
-  
+
   footer a {
     padding-right: 15px !important;
     padding-left: 15px !important;
